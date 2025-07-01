@@ -82,7 +82,7 @@ This project provides a lightweight FastAPI-based service that allows users to:
 
 ## API UI Preview
 
-![POST /api/chat/](image.png)
+![POST /api/chat/](README-IMAGE/response-chat.png)
 
 ---
 
