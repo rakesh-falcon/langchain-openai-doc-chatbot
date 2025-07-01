@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+python-multipart
+langchain
+openai
+chromadb
+pymupdf
+tiktoken
+python-dotenv
+pytesseract 
+pillow
+git-filter-repo 
