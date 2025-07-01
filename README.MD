@@ -7,6 +7,24 @@ This project provides a lightweight FastAPI-based service that allows users to:
 
 ---
 
+## Core Technologies Used
+
+| Tool/Library         | Purpose                                                                 |
+|----------------------|-------------------------------------------------------------------------|
+| **FastAPI**          | Backend API framework                                                   |
+| **Uvicorn**          | ASGI server for serving the FastAPI app                                 |
+| **python-multipart** | Enables file uploads in FastAPI                                         |
+| **LangChain**        | Manages prompt orchestration, document retrieval, and LLM integration   |
+| **OpenAI**           | Used for LLM-based answers (e.g., GPT-3.5 / GPT-4)                      |
+| **ChromaDB**         | Local vector database for document chunk storage and similarity search  |
+| **PyMuPDF (fitz)**   | PDF text extraction                                                     |
+| **pytesseract**      | OCR engine to extract text from images                                  |
+| **Pillow (PIL)**     | Image manipulation and format handling                                  |
+| **tiktoken**         | Token counting and chunking for LLM context management                  |
+| **python-dotenv**    | Manages secret keys and config from `.env` files                        |
+| **git-filter-repo**  | Used to clean sensitive data (e.g., API keys) from Git history          |
+
+---
 ## Features
 
 - Upload PDF/Image files and extract their content
